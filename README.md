@@ -21,17 +21,17 @@ You will need two terminal windows open to run the brain (backend) and the face 
 
 **Terminal 1: Start the AI Backend**
 
-# Activate your virtual environment
+## Activate your virtual environment
 venv\Scripts\activate
 
-# Run the FastAPI server
+## Run the FastAPI server
 uvicorn main:app --reload
 Terminal 2: Start the React Frontend
 
-# Navigate to the frontend directory
+## Navigate to the frontend directory
 cd frontend
 
-# Start the Vite development server
+## Start the Vite development server
 npm run dev
 Open http://localhost:5173 in your browser to start your journey!
 
