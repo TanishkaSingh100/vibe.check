@@ -1,0 +1,16 @@
+# Python background machinery
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Frontend Node machinery
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Local environment variables
+.local
+.web/
+reflex.lock/
+data/chroma_db/
