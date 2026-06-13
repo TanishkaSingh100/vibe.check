@@ -146,7 +146,7 @@ export default function App() {
   const fetchPersonality = async (searchDNA) => {
     setIsLoading(true);
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/match', {
+      const response = await fetch("https://tanishka27-vibe-check-api.hf.space/api/match", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(searchDNA)
