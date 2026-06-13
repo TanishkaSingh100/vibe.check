@@ -1,2 +1,6 @@
-
-reflex==0.9.4
+fastapi
+uvicorn
+sentence-transformers
+chromadb
+pandas
+pydantic
